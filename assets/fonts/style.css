@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+/*@font-face {*/
+/*    font-family: 'SEGOEUIL';*/
+/*    src: url('SEGOEUIL.eot');*/
+/*    src: local('SEGOEUIL'), url('SEGOEUIL.woff') format('woff'), url('SEGOEUIL.ttf') format('truetype');*/
+/*}*/
+/**    ========= Lao Fonts      =========      **/
+
+@font-face {
+    font-family: 'Asongkai';
+    src: url("Souliyo-Regular.eot?") format("eot"), url("Souliyo-Regular.woff") format("woff"), url("Souliyo-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/**   ========= Lao Fonts      =========      **/
+
+* {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, .button, button, .text-area, video, ion-label {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+nav ul {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+blockquote, q {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+a {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+ins {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+mark {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+del {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+abbr[title], dfn[title] {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+table {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+hr {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+input, select {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+
+.button-clear, .item-label, .item-native, .input-wrapper, .item-inner {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}
+.sweet-alert {
+    font-family: 'SEGOEUIL', 'Asongkai',"Muli", sans-serif;
+}

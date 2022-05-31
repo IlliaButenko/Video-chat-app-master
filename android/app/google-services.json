@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "470254671764",
+    "firebase_url": "https://ocwa-app.firebaseio.com",
+    "project_id": "ocwa-app",
+    "storage_bucket": "ocwa-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470254671764:android:9a72fd2c8a7c467a3fa181",
+        "android_client_info": {
+          "package_name": "com.oudomsup.ocwa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470254671764-4epk1kehllhj3sufl0aj5glg3qq290p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsP6Scg79933jduw-XeW6ULCz5MLCSDZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470254671764-4epk1kehllhj3sufl0aj5glg3qq290p8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

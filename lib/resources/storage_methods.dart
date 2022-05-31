@@ -1,0 +1,47 @@
+import 'dart:io';
+
+import 'package:OCWA/provider/image_upload_provider.dart';
+import 'package:firebase_storage/firebase_storage.dart';
+import 'package:flutter/widgets.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+class StorageMethods {
+  static final FirebaseFirestore firestore = FirebaseFirestore.instance;
+
+  Reference _storageReference;
+
+  Future<String> uploadImageToStorage(File imageFile) async {
+    // mention try catch later on
+
+    try {
+      _storageReference = FirebaseStorage.instance
+          .ref()
+          .child('${DateTime.now().millisecondsSinceEpoch}');
+      UploadTask storageUploadTask =
+          _storageReference.putFile(imageFile);
+      var url = await (await storageUploadTask).ref.getDownloadURL();
+      // print(url);
+      return url;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  void uploadImage({
+    @required File image,
+    @required String receiverId,
+    @required String senderId,
+    @required ImageUploadProvider imageUploadProvider,
+  }) async {
+
+    // Set some loading value to db and show it to user
+    imageUploadProvider.setToLoading();
+
+    // Get url from the image bucket
+    String url = await uploadImageToStorage(image);
+
+    // Hide loading
+    imageUploadProvider.setToIdle();
+
+  }
+}
